@@ -8,14 +8,14 @@ return {
         explorer = {
           hidden = true,
           ignored = true,
-          exclude = { ".git" },
+          exclude = { ".git", ".angular" },
         },
         files = {
           hidden = true,
           ignored = true,
-          exclude = { ".git" },
-        }
-      }
+          exclude = { ".git", ".angular" },
+        },
+      },
     },
   },
 }
