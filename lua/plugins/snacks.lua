@@ -13,7 +13,7 @@ return {
         files = {
           hidden = true,
           ignored = true,
-          exclude = { ".git", ".angular" },
+          exclude = { ".git", ".angular", "node_modules" },
         },
       },
     },
